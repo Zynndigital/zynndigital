@@ -1,14 +1,17 @@
-Zynndigital Website
-=====================
-Website ini adalah platform edukasi finansial & crypto untuk Gen Z.
+Zynndigital - Premium Dark Mode Website Package
+Files included:
+- index.html (dark mode, dynamic articles embedded)
+- style.css
+- app.js
+- articles.json (20 articles)
+- robots.txt
+- sitemap.xml
+- google044f105ff7003445.html (Search Console verification)
 
-Cara Upload ke GitHub Pages:
-1. Login GitHub & buat repository public bernama zynndigital.
-2. Upload semua file ini ke repository tersebut.
-3. Aktifkan GitHub Pages di menu Settings -> Pages.
-4. Website akan tersedia di https://username.github.io/zynndigital
-
-Cara Tambah Artikel:
-- Edit file articles.json
-- Tambahkan objek baru {"title": "Judul", "content": "Isi artikel"} di dalam array.
-- Commit & push ke GitHub.
+Quick upload to GitHub Pages:
+1. Create GitHub account & new public repo named 'zynndigital'.
+2. Upload all files from this folder to repo root.
+3. In repo Settings -> Pages: select 'Deploy from a branch' -> branch 'main' -> root -> Save.
+4. Wait a minute, then visit: https://<your-github-username>.github.io/zynndigital/
+5. In Google Search Console, add property 'https://<your-github-username>.github.io/zynndigital/' and use 'HTML file upload' verification. The verification file is already included.
+6. Submit sitemap: https://zynndigital.id/sitemap.xml (or the GitHub Pages equivalent).
